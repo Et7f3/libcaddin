@@ -1,3 +1,10 @@
+#folders
+
+SDCard/*
+libcaddinFile/*
+INIT/*
+Debug/*
+
 # Prerequisites
 *.d
 

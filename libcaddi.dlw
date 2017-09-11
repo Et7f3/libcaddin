@@ -2,12 +2,12 @@
 
 [_1]
 Type=5
-Order=6
+Order=7
 Top=15
 Left=2235
 Height=4740
 Width=5565
-State=0
+State=16
 Flags=00000020
 OptionA=0
 
@@ -25,7 +25,7 @@ OptionB=15
 
 [_3]
 Type=6
-Order=3
+Order=6
 Top=4740
 Left=7800
 Height=6390
@@ -36,29 +36,29 @@ OptionA=0
 
 [_4]
 Type=7
-Order=2
+Order=9
 Top=4740
 Left=2220
 Height=3165
 Width=5565
-State=0
+State=16
 Flags=00000000
 OptionA=0
 
 [_5]
 Type=8
-Order=1
+Order=8
 Top=7905
 Left=2220
 Height=3225
 Width=5580
-State=0
+State=16
 Flags=00000000
 OptionA=0
 
 [_6]
 Type=3
-Order=9
+Order=11
 Top=0
 Left=10788
 Height=6348
@@ -69,7 +69,7 @@ OptionA=0
 
 [_7]
 Type=2
-Order=8
+Order=10
 Top=6348
 Left=7800
 Height=3588
@@ -80,20 +80,20 @@ OptionA=0
 
 [_8]
 Type=17
-Order=4
+Order=1
 Top=15
 Left=-15
 Height=11115
-Width=2235
+Width=1980
 State=0
 Flags=00000000
 OptionA=0
 
 [_9]
 Type=15
-Order=0
-Top=4740
-Left=2235
+Order=3
+Top=2220
+Left=1740
 Height=6345
 Width=5595
 State=0
@@ -102,11 +102,36 @@ OptionA=0
 
 [_32]
 Type=16
-Order=7
+Order=4
 Top=0
-Left=2208
-Height=4584
-Width=5592
-State=16
+Left=2205
+Height=6360
+Width=5595
+State=0
 Flags=00000020
+Setting=1:30:libcaddi.c
+OptionA=0
+
+[_33]
+Type=16
+Order=0
+Top=1185
+Left=1575
+Height=6585
+Width=17085
+State=0
+Flags=00000020
+Setting=35:14:libcaddinFile\_libcaddin.h
+OptionA=0
+
+[_34]
+Type=16
+Order=2
+Top=1125
+Left=1125
+Height=6585
+Width=17085
+State=0
+Flags=00000020
+Setting=4:9:libcaddinFile\_libcaddin.c
 OptionA=0
