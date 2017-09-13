@@ -1,19 +1,19 @@
 #include "./libcaddinFile/_libcaddin.h"
 
-int AddIn_main(int isAppli, unsigned short OptionNum)
+int main(void)
 {
     unsigned int key;
 
     Bdisp_AllClr_DDVRAM();
 
-    locate(1,4);
+    //locate(1,4);
     Print((unsigned char*)"This application is");
     locate(1,5);
-    Print((unsigned char*)" sample Add-In.");
+    Print((unsigned char*)" sample Addp-In.");
 
     while(1){
         GetKey(&key);
     }
 
-    return 1;
+    return 0;
 }
