@@ -2,7 +2,7 @@
 
 [_1]
 Type=5
-Order=1
+Order=3
 Top=15
 Left=2235
 Height=4740
@@ -13,7 +13,7 @@ OptionA=0
 
 [_2]
 Type=1
-Order=2
+Order=1
 Top=15
 Left=7800
 Height=4740
@@ -25,7 +25,7 @@ OptionB=15
 
 [_3]
 Type=6
-Order=4
+Order=0
 Top=4740
 Left=7800
 Height=6480
@@ -80,7 +80,7 @@ OptionA=0
 
 [_8]
 Type=17
-Order=3
+Order=4
 Top=15
 Left=-15
 Height=11115
@@ -91,7 +91,7 @@ OptionA=0
 
 [_9]
 Type=15
-Order=0
+Order=2
 Top=2220
 Left=1740
 Height=6345
@@ -109,7 +109,7 @@ Height=6360
 Width=5595
 State=16
 Flags=00000020
-Setting=5:22:libcaddi.c
+Setting=1:1:libcaddi.c
 OptionA=0
 
 [_33]

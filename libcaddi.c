@@ -6,7 +6,7 @@ int main(void)
 
     Bdisp_AllClr_DDVRAM();
 
-    //locate(1,4);
+    //locate(1,3);
     Print((unsigned char*)"This application is");
     locate(1,5);
     Print((unsigned char*)" sample Addp-In.");
