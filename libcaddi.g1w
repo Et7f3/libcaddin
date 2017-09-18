@@ -14,4 +14,4 @@ LoadAddress=80000000:90100000
 [Files]
 SourceFile=:libcaddi.c
 SourceFile=:libcaddinFile\_libcaddin.c
-HeaderFile=:libcaddinFile\_libcaddin.h
+SourceFile=:libcaddinFile\stdio.c

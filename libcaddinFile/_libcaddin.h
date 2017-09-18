@@ -10,4 +10,6 @@ int x,y;
 
 extern _lca_screenStruct _lca_screen;
 
+int _lca_print_o(const unsigned char *texte, short rev);
+
 #endif //__LIB_C_ADDIN_

@@ -10,6 +10,31 @@
 #include "./_libcaddin.h"
 _lca_screenStruct _lca_screen = {0};
 
+
+int _lca_print_o(const unsigned char *texte, short rev){
+    unsigned char *t = texte;
+    while(*t)
+    {
+        if (_lca_screen.x==21)
+        {
+            _lca_screen.x=0;
+            _lca_screen.y++;
+        }
+        else
+        {
+            _lca_screen.x++;
+        }
+        locate(_lca_screen.x, _lca_screen.y+1);
+        if(!rev)
+        {
+            PrintC(t);
+        }
+        else{
+            PrintRevC(t);
+        }
+        t++;
+    }
+}
 //****************************************************************************
 //  AddIn_main (Sample program main function)
 //

@@ -7,6 +7,8 @@ int main(void)
     Bdisp_AllClr_DDVRAM();
 
     Print((unsigned char*)"This application is");
+    locate(1,3);
+    _lca_print_o((unsigned char*)"coucou je suis un tres long texte",1);
     locate(1,2);
     Print((unsigned char*)" sample Add-In.");
 
