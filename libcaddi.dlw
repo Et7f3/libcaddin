@@ -13,7 +13,7 @@ OptionA=0
 
 [_2]
 Type=1
-Order=1
+Order=4
 Top=15
 Left=7800
 Height=4740
@@ -25,7 +25,7 @@ OptionB=15
 
 [_3]
 Type=6
-Order=0
+Order=5
 Top=4740
 Left=7800
 Height=6480
@@ -80,7 +80,7 @@ OptionA=0
 
 [_8]
 Type=17
-Order=4
+Order=1
 Top=15
 Left=-15
 Height=11115
@@ -91,10 +91,10 @@ OptionA=0
 
 [_9]
 Type=15
-Order=2
-Top=2220
+Order=0
+Top=2085
 Left=1740
-Height=6345
+Height=6480
 Width=13395
 State=0
 Flags=00000000
@@ -102,36 +102,36 @@ OptionA=0
 
 [_32]
 Type=16
-Order=5
+Order=7
 Top=0
 Left=2205
 Height=6360
 Width=5595
-State=16
+State=0
 Flags=00000020
 Setting=1:1:libcaddi.c
 OptionA=0
 
 [_33]
 Type=16
-Order=7
+Order=6
 Top=4830
 Left=4500
 Height=6585
 Width=17085
-State=16
+State=1
 Flags=00000020
-Setting=29:1:libcaddinFile\_libcaddin.h
+Setting=75:1:libcaddinFile\_libcaddin.h
 OptionA=0
 
 [_34]
 Type=16
-Order=6
+Order=2
 Top=1245
 Left=2580
 Height=6585
 Width=17085
-State=16
+State=0
 Flags=00000020
-Setting=19:2:libcaddinFile\_libcaddin.c
+Setting=1:1:libcaddinFile\_libcaddin.c
 OptionA=0

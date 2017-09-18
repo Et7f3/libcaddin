@@ -6,10 +6,9 @@ int main(void)
 
     Bdisp_AllClr_DDVRAM();
 
-    //locate(1,3);
     Print((unsigned char*)"This application is");
-    locate(1,5);
-    Print((unsigned char*)" sample Addp-In.");
+    locate(1,2);
+    Print((unsigned char*)" sample Add-In.");
 
     while(1){
         GetKey(&key);
