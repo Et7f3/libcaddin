@@ -2,10 +2,12 @@
 #define __LIB_C_ADDIN_
 
 #include "fxlib.h"
+#include "stdio.h"
+#include "stdbool.h"
 
 typedef struct _lca_screenStruct {
 unsigned char buff[147];
-int x,y;
+unsigned int x,y;
 } _lca_screenStruct;
 
 extern _lca_screenStruct _lca_screen;
